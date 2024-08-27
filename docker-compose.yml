@@ -8,4 +8,5 @@ services:
     volumes:
       - ./nginx/conf:/etc/nginx/conf.d
       - ./nginx/log:/var/log/nginx
+      - ./nyoba-test:/nyoba-test
     restart: always
